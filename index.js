@@ -3,7 +3,7 @@ const { Client, GatewayIntentBits, SlashCommandBuilder, EmbedBuilder, Applicatio
 const axios = require('axios');
 
 // Webhook logging configuration
-const WEBHOOK_URL = "https://discord.com/api/webhooks/1375018617271226378/-ScxnWAEtbWtQZ7tvezZ_r5oASBfBHgmRO_o2c508mfpWuva037Iyve1Idz3KENPQOXN"; // Set this in your secrets
+const WEBHOOK_URL = "https://discord.com/api/webhooks/1375018617271226378"; // Set this in your secrets
 
 class WebhookLogger {
     constructor(webhookUrl) {
